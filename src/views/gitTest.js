@@ -9,6 +9,3 @@ console.log(1);
 console.log(63);
 console.log(63);
 console.log(63);
-console.log(63);
-console.log(63);
-console.log(63);
