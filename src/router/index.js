@@ -1,14 +1,40 @@
-import Home from '../views/home'
-import About from '../views/about'
+import Home from '../pages/Home/Home'
+import Detail from '../pages/Detail'
+import Login from '../pages/Login'
+import Introduction from '../pages/Introduction'
+import Api from '../pages/Api'
+import About from '../pages/About'
+import Register from '../pages/Register'
+
 const router =[
   {
-    path:'/',
     component:Home,
+    path:'/',
     exact:true
   },
   {
-    path:'/about',
+    component:Detail,
+    path:'/detail',
+  },
+  {
+    component:Login,
+    path:'/login',
+  },
+  {
+    component:Introduction,
+    path:'/introduction',
+  },
+  {
+    component:Api,
+    path:'/api',
+  },
+  {
     component:About,
+    path:'/about',
+  },
+  {
+    component:Register,
+    path:'/register',
   }
 ]
 

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1103192 */
+  src: url('//at.alicdn.com/t/font_1103192_ynp61nzol5.eot');
+  src: url('//at.alicdn.com/t/font_1103192_ynp61nzol5.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1103192_ynp61nzol5.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1103192_ynp61nzol5.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1103192_ynp61nzol5.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1103192_ynp61nzol5.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:40px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+.home{
+  font-size: 14px;
+  width: 90vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  .content-left{
+    background-color: #fff;
+    flex: 1;
+    margin-right: 20px;
+    .nav-header{
+      ul{
+        display: flex;
+        align-items: center;
+        padding: 7.5px;
+        background-color: #f6f6f6;
+        li{
+          color: #80bd01;
+          cursor: pointer;
+          margin-right: 10px;
+          padding: 3px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          &.active{
+            background-color: #80bd01;
+            color: #ffffff;
+          }
+        }
+
+      }
+
+    }
+    .nav-content{
+      width: 100%;
+      ul{
+        width: 100%;
+        li{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+          border-bottom: 1px solid #f0f0f0;
+          &:hover{
+            background-color: #f6f6f6;
+          }
+          &:last-child{
+            border-bottom:none;
+          }
+          .list-left{
+            display: flex;
+            align-items: center;
+
+            .list-left-info{
+
+              img {
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                vertical-align: middle;
+                margin-right: 5px;
+              }
+              span.number{
+                display: inline-block;
+                width: 70px;
+              }
+              span.to{
+                font-size: 16px;
+                color: #333;
+                cursor: pointer;
+                margin-left: 5px ;
+
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+              span{
+
+                vertical-align: middle;
+                font-size: 10px;
+                color: #b4b4b4;
+                &:nth-of-type(1){
+                  color: #9e78c0;
+                }
+                &.tab{
+                  background-color: #e5e5e5;
+                  color: #999;
+                  font-size: 12px;
+                  padding: 2px 4px;
+                  border-radius: 5px;
+                  margin-left: 3px;
+                }
+                &.tab.active{
+                  background-color: #80bd01;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+          .list-right{
+            color: #777777;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .content-right{
+    background-color: #fff;
+    width: 300px;
+  }
+}
+
+
+
+
+

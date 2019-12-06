@@ -1,0 +1,23 @@
+.page{
+  margin: 10px ;
+  .content{
+    display: flex;
+    align-content: center;
+    span{
+      padding: 5px 12px;
+      border: 1px solid #ddd;
+      border-right:  none;
+      cursor: pointer;
+      &.active{
+        color: #80bd01;
+        cursor: default;
+      }
+      &:hover{
+        background-color: #f6f6f6;
+      }
+      &:last-child{
+        border-right: 1px solid #ddd;
+      }
+    }
+  }
+}
