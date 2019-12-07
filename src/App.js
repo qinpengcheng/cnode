@@ -16,7 +16,6 @@ class App extends Component {
           <Router>
             <div className='main'>
               <Header></Header>
-              <Switch>
                 {
                   router.map((item,index)=>{
                     if(item.exact){
@@ -37,7 +36,6 @@ class App extends Component {
                     }
                   })
                 }
-              </Switch>
               <Footer></Footer>
             </div>
           </Router>
